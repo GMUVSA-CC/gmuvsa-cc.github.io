@@ -502,15 +502,25 @@ body.mobile-nav-active #mobile-nav-toggle {
 
 #intro img {
   width: 60vw;
-  margin: auto;    
-  display: block;
+  margin-top: -10%;  
+  margin-bottom: -5%;
 }
 
 #intro h1 {
   color: #fff;
-  font-size: 56px;
+  font-size: 4vw;
   font-weight: 550;
   text-transform: uppercase;
+}
+
+#intro h2 {
+  color: #fff;
+  font-size: 2.5vw;
+}
+
+#intro h3 {
+  color: #fff;
+  font-size: 2vw;
 }
 
 #intro h1 span {
@@ -1172,6 +1182,27 @@ body.mobile-nav-active #mobile-nav-toggle {
     top: 13px;
   }
 
+  #intro img {
+    width: 80vw;
+    display: block;
+  }
+
+  #intro h1 {
+    color: #fff;
+    font-size: 6vw;
+    font-weight: 550;
+    text-transform: uppercase;
+  }
+  
+  #intro h2 {
+    color: #fff;
+    font-size: 4vw;
+  }
+  
+  #intro h3 {
+    color: #fff;
+    font-size: 3vw;
+  }
 
 }
 
@@ -1196,6 +1227,23 @@ body.mobile-nav-active #mobile-nav-toggle {
 @media (max-width: 480px) {
   #schedule .nav-tabs a {
     padding: 8px 30px;
+  }
+
+  #intro h1 {
+    color: #fff;
+    font-size: 8vw;
+    font-weight: 550;
+    text-transform: uppercase;
+  }
+  
+  #intro h2 {
+    color: #fff;
+    font-size: 6vw;
+  }
+  
+  #intro h3 {
+    color: #fff;
+    font-size: 4vw;
   }
 }
 
